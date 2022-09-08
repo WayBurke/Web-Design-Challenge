@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- Title of the WebPage -->
-    <title>WeatherPy - Latitude vs X</title>
+    <title>Cloudiness Map</title>
 
     <!-- CSS style sheet associated to this project -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -54,18 +54,18 @@
                 <div class="col-sm-6">
                     <div class="p-3 border box">
                     <!--### BEGINNING OF CODE BLOCK ###-->
-                        <h4 class="h4-font"><strong> Summary: Latitude vs. X </strong></h4> <hr>
-                        <a target="_blank" href="assets/images/Fig1.png">
-                            <img src="assets/images/Fig1.png" width =50% height= 50% alt="Tempurature Map" style="float:left">
+                        <h4 class="h4-font"><strong> Cloudiness</strong></h4> <hr>
+                        <!--This link will give an enlarged view while the Visualization links will redirect to page-->
+                        <a target="_blank" href="assets/images/Fig3.png"> 
+                            <img src="assets/images/Fig3.png"  alt="Cloudiness Map" style="float:inline-end" class="img-fluid">
                         </a>
                         
-                        <blockquote> The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                            <br><br> 
-                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. 
-                            Factors we looked at included: temperature, clouidness, wind speed, and Humidity.
-                            This site provides the source data and visualizations created as part of the analysis, 
-                            as well as explanatios and descriptions of any trends and correlations witnessed.
+                        <blockquote> 
+                            Based on the data there is no correlation between Latitude and Cloudiness conditions. 
+                            For this reason you will find cloudiness throughout the dataset.
+                            <br><br>
+                            From a percentage perspective, cloudiness appears to be more concentrated around 
+                            latitudes -30 to 70 degrees Latitude based on the chart.
                         </blockquote>
                     </div>
                 </div>
@@ -75,20 +75,20 @@
                 <div class="col-sm-4 border box"> <div class="p-3">
                     <h4 class="h4-font"><strong>Visualizations</strong></h4> <hr>
                     
-                    <a target="_blank" href="maxtemp.html">
+                    <a href="maxtemp.html">
                         <img src="assets/images/Fig1.png" width =50% height =50% alt="Tempurature Map" style="float:left">
                     </a>
                             
-                    <a target="_blank" href="humidity.html">
+                    <a href="humidity.html">
                         <img src="assets/images/Fig2.png" width =50% height =50% alt="Humidity Map" style="float:right">
                     </a> <br>
                     
                     
-                    <a target="_blank" href="cloudiness.html">
+                    <a href="cloudiness.html">
                         <img src="assets/images/Fig3.png" width =50% height =50% alt="Clouidness Map" style="float:left">
                     </a>
 
-                    <a target="_blank" href="windspeed.html">
+                    <a href="windspeed.html">
                         <img src="assets/images/Fig4.png" width =50% height =50% alt="Wind Speed Map" style="float:right">
                     </a>
                     </div>
