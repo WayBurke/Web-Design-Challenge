@@ -11,10 +11,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- Title of the WebPage -->
-    <title>Cloudiness Map</title>
+    <title>Wind Speed Map</title>
 
     <!-- CSS style sheet associated to this project -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 
 </head>
 
@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
         
-            <a class="navbar-brand header-color p-2" href="index.html"><h2><strong>Latitude</strong></h2></a>
+            <a class="navbar-brand header-color p-2" href="../index.html"><h2><strong>Latitude</strong></h2></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,7 +43,7 @@
                         </ul>
                     </li>
                     
-                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Comparison</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comparison.html" target="_blank">Comparison</a></li>
                     <li class="nav-item"><a class="nav-link" href="table-page.html" target="_blank">Data</a></li>
                 </ul>
             </div>
@@ -54,18 +54,17 @@
                 <div class="col-sm-6">
                     <div class="p-3 border box">
                     <!--### BEGINNING OF CODE BLOCK ###-->
-                        <h4 class="h4-font"><strong> Cloudiness</strong></h4> <hr>
+                        <h4 class="h4-font"><strong> Wind Speed</strong></h4> <hr>
                         <!--This link will give an enlarged view while the Visualization links will redirect to page-->
-                        <a target="_blank" href="assets/images/Fig3.png"> 
-                            <img src="assets/images/Fig3.png"  alt="Cloudiness Map" style="float:inline-end" class="img-fluid">
+                        <a target="_blank" href="../assets/images/Fig4.png"> 
+                            <img src="../assets/images/Fig4.png"  alt="Wind Speed Map" style="float:inline-end" class="img-fluid">
                         </a>
                         
                         <blockquote> 
-                            Based on the data there is no correlation between Latitude and Cloudiness conditions. 
-                            For this reason you will find cloudiness throughout the dataset.
+                            Like assessment of the Latitude vs Cloudiness, the data shows no correlation of one to the other.
                             <br><br>
-                            From a percentage perspective, cloudiness appears to be more concentrated around 
-                            latitudes -30 to 70 degrees Latitude based on the chart.
+                            Based on the points plotted, it would appear that the dataset had more cities in the northern hemisphere. 
+                            However for both, the average wind speed will be between 7 to 10 mph.
                         </blockquote>
                     </div>
                 </div>
@@ -76,24 +75,24 @@
                     <h4 class="h4-font"><strong>Visualizations</strong></h4> <hr>
                     
                     <a href="maxtemp.html">
-                        <img src="assets/images/Fig1.png" width =50% height =50% alt="Tempurature Map" style="float:left">
+                        <img src="../assets/images/Fig1.png" width =50% height =50% alt="Tempurature Map" style="float:left">
                     </a>
                             
                     <a href="humidity.html">
-                        <img src="assets/images/Fig2.png" width =50% height =50% alt="Humidity Map" style="float:right">
+                        <img src="../assets/images/Fig2.png" width =50% height =50% alt="Humidity Map" style="float:right">
                     </a> <br>
                     
                     
                     <a href="cloudiness.html">
-                        <img src="assets/images/Fig3.png" width =50% height =50% alt="Clouidness Map" style="float:left">
+                        <img src="../assets/images/Fig3.png" width =50% height =50% alt="Clouidness Map" style="float:left">
                     </a>
 
                     <a href="windspeed.html">
-                        <img src="assets/images/Fig4.png" width =50% height =50% alt="Wind Speed Map" style="float:right">
+                        <img src="../assets/images/Fig4.png" width =50% height =50% alt="Wind Speed Map" style="float:right">
                     </a>
                     </div>
                 </div>
-                <!--############################################################-->    
+                <!--############################################################-->     
             </div>
           </div> 
       </div><!-- /.container-fluid -->
