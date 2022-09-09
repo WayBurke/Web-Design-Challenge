@@ -20,35 +20,28 @@ body {
   font-family:sans-serif;
   font-size: 15px;
 }
-/*
-.margin-top-80 {
-  margin-top: 80px;
+
+@media screen and (max-width: 540px) {
+  nav {
+    background-color: rgb(74, 170, 165);
+   
+  }
 }
-*
-blockquote {
-   * font-family: Helvetica, Arial, sans-serif;*
-    line-height: 1.8;
-}*/
+
 
 .header-color {
   background-color: rgb(74, 170, 165);
   color: #fff;
 }
 
-/*.theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
-}*/
 
 .container {
-  display: flex; /* or inline-flex 
-  flex-flow:  column wrap; /*shorthand for the flex-direction and flex-wrap properties*/
+  display: flex;  
+  flex-flow:  column wrap; 
 }
 
 .my-custom-row{
   background-color: rgb(237, 237, 237);
-  /*height: 470px;*/
   background-size: auto; /*Setting the height to be automatic/based on the size of content?? */
   background-origin: padding-box;
 }
