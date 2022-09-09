@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- These 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- BootStrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+        <!-- Title of the WebPage Project -->
+        <title>Latitude Comparison</title>
+
+        <!-- CSS style sheet associated to this project -->
+        <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+            
+                <a class="navbar-brand header-color p-2" href="../index.html"><h2><strong>Latitude</strong></h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse offset-8" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-end">
+                    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Plots
+                              </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="maxtemp.html">Latitude vs. Max Temperature</a></li>
+                                <li><a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a></li>
+                                <li><a class="dropdown-item" href="cloudiness.html">Latitude vs. Cloudiness</a></li>
+                                <li><a class="dropdown-item" href="windspeed.html">Latitude vs. Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="comparison.html" target="_blank">Comparison</a></li>
+                        <li class="nav-item"><a class="nav-link" href="table-page.html" target="_blank">Data</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!--### BEGINNING OF CODE BLOCK ###-->
+            <div class="row my-custom-row justify-content-center align-items-center">
+                <div class="row p-3">
+                    <div class="col-sm-10 justify-content-center align-items-center border box offset-1">
+                        <div class="p-3">
+                            <h4 class="h4-font"><strong> Comparison: Latitude vs. X </strong></h4> <hr>
+                            Click any plot to get an in-depth analysis.<br><br>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h6 class="h4-font text-center"><strong> vs. Max Temperature </strong></h6>
+                                    <a target="_blank" href="maxtemp.html">
+                                        <img src="../assets/images/Fig1.png" class="img-fluid" alt="Tempurature Map" style="float:left">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6 class="h4-font text-center"><strong> vs. Humidity </strong></h6>
+                                    <a target="_blank" href="humidity.html">
+                                        <img src="../assets/images/Fig2.png" class="img-fluid" alt="Humidity Map" style="float:left">
+                                    </a>
+                                </div>
+                            </div>
+                            <br><br>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h6 class="h4-font text-center"><strong> vs. Cloudiness </strong></h6>
+                                    <a target="_blank" href="cloudiness.html">
+                                        <img src="../assets/images/Fig3.png" class="img-fluid" alt="Cloudiness Map" style="float:left">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6 class="h4-font text-center"><strong> vs. Wind Speed </strong></h6>
+                                    <a target="_blank" href="windspeed.html">
+                                        <img src="../assets/images/Fig4.png" class="img-fluid" alt="Wind Speed Map" style="float:left">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+    
+
+
+
+            </div>
+            <!--### END OF CODE BLOCK ###-->
+        
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+            crossorigin="anonymous"></script>
+    </body>
+</html>
